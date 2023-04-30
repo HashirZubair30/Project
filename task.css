@@ -1,0 +1,397 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.my-social{
+    display: flex;
+    gap: 15px;
+}
+
+.head-content{
+    background-image: url('/pics/Hashir.jpeg') ;
+    background-size: 50px;
+    max-width: 2000px;
+    height: 400px;
+    margin-top: -150px;
+    background-size: cover;
+    background-position: 0px -430px;
+    background-repeat: no-repeat;
+    text-align:justify center;
+    color: black; 
+    padding-top: 250px;
+    padding-left: 75px;
+}
+
+.myself{
+    display: flex;
+    gap: 100px;
+}
+.exp1{
+    display:flex;
+    gap: 10px;
+}
+.exp2{
+    display:flex;
+    gap: 10px;
+}
+.exp3{
+    display:flex;
+    gap: 10px;
+}
+
+
+.upper-person{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+
+.lower-person{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.upper-cities{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.lower-cities{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.upper-tour{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.lower-tour{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.info-left{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.info-1{
+    display:flex;
+    gap: 10px;
+}
+.info-2{
+    display:flex;
+    gap: 10px;
+}
+.info-3{
+    display:flex;
+    gap: 10px;
+}
+.Info{
+    display: flex;
+    color: peru;
+    background-color: rgb(20, 36, 59);
+   
+}
+.info-right{
+    margin-left: 220px;
+    margin-top: 120px;
+}
+.button{
+        margin-left: 32px;
+        
+        margin-top: 10px;
+        background-color: rgb(250, 61, 61); 
+        border: none;
+        color: white;
+        padding: 5px 50px;
+        text-align: center;
+        display: inline-block;
+        font-size: 12px;
+        margin-bottom: 50px;
+        border-style:outset;
+}
+
+
+
+
+  
+  .sidenav {
+    height: 200%;
+    width: 65px;
+    position: fixed;
+    background-color:rgb(20, 36, 59);
+    margin-top: -40px;
+    
+  }
+  
+  .sidenav a {
+    padding: 80px 8px 6px 6px;
+    text-decoration: none;
+    font-size: 15px;
+    color: peru;
+    display: block;
+  }
+  
+  
+
+
+
+
+  @media screen and (max-width: 1000px){
+    
+    .head-content{
+        background-image: url('/pics/Hashir.jpeg') ;
+        background-size: 50px;
+        max-width: 232px;
+        max-height: 250px;
+        margin-top: -90px;
+        background-size: cover;
+        background-position: 0px -90px;
+        background-repeat: no-repeat;
+        text-align:justify center;
+        color: black; 
+        padding-top: 300px;
+        padding-left: -75px;
+        font-size:xx-small;
+       
+    }
+   
+    
+ .header-title{
+    font-size: small;
+    color: black;
+
+ }
+ .header-mono{
+    font-size: small;
+    color: black;
+ }
+ .header-subtitle{
+    color: black;
+    font-size: small;
+ }
+
+    .myself{
+        display: flex;
+        flex-direction: column;
+        /*gap: 100px;*/
+       
+    }
+ .me-1{
+      font-size: 11px;
+    margin-left: 10 px;
+    }
+ 
+
+
+
+
+
+.fav-person{
+    display: flex;
+    flex-direction: column;
+font-size:  6px ;
+text-align: center;
+}
+.first-pic{
+    max-width: 100 px;
+    max-height: 500px;
+    margin-right: 70px;
+}
+.second-pic{
+    max-width: 100 px;
+    max-height: 500px;
+    margin-right: 70px;
+}
+.third-pic{
+    max-width: 100 px;
+    max-height: 500px;
+    margin-right: 70px;
+}
+.fourth-pic{
+    max-width: 100 px;
+    max-height: 500px;
+    margin-right: 70px;
+    text-align: center;
+}
+.upper-person{
+    display: flex;
+    flex-direction: column;
+}
+
+.lower-person{
+    display: flex;
+    flex-direction: column;
+}
+.fifth-pic{
+    max-width: 100 px;
+    max-height: 500px;
+    margin-right: 70px;
+}
+.six-pic{
+    max-width: 100 px;
+    max-height: 500px;
+    margin-right: 70px;
+}
+.seven-pic{
+    max-width: 100 px;
+    max-height: 500px;
+    margin-right: 70px;
+}
+.eight-pic{
+    max-width: 100 px;
+    max-height: 500px;
+    margin-right: 70px;
+}
+
+    .sidenav {
+        height: 200%;
+        width: 12px;
+        position: fixed;
+        background-color:rgb(20, 36, 59);
+        margin-top: -40px;
+        
+      }
+      
+      .sidenav a {
+        padding: 80px 8px 6px 6px;
+        text-decoration: none;
+        font-size: 1.7px;
+        color: peru;
+        display: block;
+      }
+      .fav-cities{
+        display: flex;
+        flex-direction: column;
+    font-size:  6px ;
+    padding-right: 130px;
+    
+    
+   
+      }
+      .upper-cities{
+        display: flex;
+        flex-direction: column;     
+      }
+    
+      .first-city{ 
+        margin-left: -150px;
+        text-align:justify;
+        text-align: center;
+        font-size: 6px;
+        
+      }
+      .sec-city{
+        margin-left: -150px;
+        text-align:justify;
+        text-align: center;
+        font-size: 6px;
+      }
+
+      .lower-cities{
+        display: flex;
+    flex-direction: column;
+      }
+      .third-city{
+        margin-left: -150px;
+        text-align:justify;
+        text-align: center;
+        font-size: 6px;
+      }
+      .fourth-city{
+        margin-left: -150px;
+        text-align:justify;
+        text-align: center;
+        font-size: 6px;
+      }
+
+
+      
+      
+      .fav-tourist{
+    display: flex;
+    flex-direction: column;
+    font-size:  6px ;
+    padding-right: 130px;
+ }
+ .upper-tour{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px; 
+ }
+ .first-place{
+    margin-left: 10px;
+    text-align:justify;
+    text-align: center;
+    font-size: 6px;
+ }
+ .sec-place{
+    margin-left: 10px;
+        text-align:justify;
+        text-align: center;
+        font-size: 6px;
+ }
+ .third-place{
+    margin-left: 10px;
+        text-align:justify;
+        text-align: center;
+        font-size: 6px;
+ }
+ 
+ .lower-tour{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+ }
+ .fourth-place{
+    margin-left: 10px;
+        text-align:justify;
+        text-align: center;
+        font-size: 6px;
+ }
+ .fifth-place{
+    margin-left: 10px;
+    text-align:justify;
+    text-align: center;
+    font-size: 6px;
+ }
+ .six-place{
+    margin-left: 10px;
+    text-align:justify;
+    text-align: center;
+    font-size: 6px;
+ }
+
+
+ .Info{
+    display: flex;
+    flex-direction: column;
+ }
+.email{
+    width: 10 px;
+}.button{
+    width: 10 px;
+}
+
+.info-right{
+    margin-left: 40px;
+    font-size: small;
+}
+.info-3{
+    font-size: 11.5px;
+}
+
+
+
+}
+
